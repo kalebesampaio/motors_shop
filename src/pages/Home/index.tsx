@@ -1,5 +1,7 @@
+import { CardAuction } from "../../components/CardAuction";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
+import { ListAuction } from "../../components/ListAuction";
 import { HomeButton, HomeMain, HomeNavbar } from "./styles";
 
 export const Home = () => {
@@ -15,7 +17,14 @@ export const Home = () => {
           <HomeButton>Motos</HomeButton>
         </div>
       </HomeNavbar>
-      <HomeMain></HomeMain>
+      <HomeMain>
+        <ListAuction>
+          <CardAuction />
+          <CardAuction />
+          <CardAuction />
+          <CardAuction />
+        </ListAuction>
+      </HomeMain>
       <Footer />
     </>
   );

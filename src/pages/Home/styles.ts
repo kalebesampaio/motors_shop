@@ -84,4 +84,7 @@ export const HomeButton = styled.button`
   }
 `;
 
-export const HomeMain = styled.main``;
+export const HomeMain = styled.main`
+  max-width: 100%;
+  padding: 0px 0px 0px 60px;
+`;
