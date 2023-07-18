@@ -3,6 +3,7 @@ import { styled } from "styled-components";
 export const ListAuctionStyle = styled.div`
   width: 100%;
   overflow: hidden;
+  margin-bottom: 5rem;
   h2 {
     font-size: 24px;
     font-weight: 600;
@@ -16,7 +17,8 @@ export const ListAuctionStyle = styled.div`
   div {
     max-width: 100%;
   }
-  .sc-bdvumH {
-    margin-right: 22px;
+  .sc-bdvumH,
+  .sc-iCfKOy {
+    margin-right: 25px;
   }
 `;

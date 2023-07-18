@@ -1,4 +1,5 @@
 import { CardAuction } from "../../components/CardAuction";
+import { CardVehicle } from "../../components/CardVehicle";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { ListAuction } from "../../components/ListAuction";
@@ -18,11 +19,27 @@ export const Home = () => {
         </div>
       </HomeNavbar>
       <HomeMain>
-        <ListAuction>
+        <ListAuction title={"Leilão"}>
           <CardAuction />
           <CardAuction />
           <CardAuction />
           <CardAuction />
+        </ListAuction>
+
+        <ListAuction title={"Carros"}>
+          <CardVehicle />
+          <CardVehicle />
+          <CardVehicle />
+          <CardVehicle />
+          <CardVehicle />
+        </ListAuction>
+
+        <ListAuction title={"Motos"}>
+          <CardVehicle />
+          <CardVehicle />
+          <CardVehicle />
+          <CardVehicle />
+          <CardVehicle />
         </ListAuction>
       </HomeMain>
       <Footer />

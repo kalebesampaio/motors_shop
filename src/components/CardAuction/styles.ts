@@ -149,7 +149,6 @@ export const CardDescription = styled.div`
   align-items: center;
   justify-content: space-between;
   margin-top: 10px;
-
   div {
     display: flex;
     span {
@@ -175,6 +174,8 @@ export const CardDescription = styled.div`
     font-family: "Lexend", sans-serif;
     color: #ffffff;
     font-weight: 500;
+    margin: 0;
+    width: auto;
   }
   @media (max-width: 1050px) {
     margin-top: 20px;

@@ -36,11 +36,13 @@ export const HeaderContainer = styled.div`
       justify-content: space-around;
       border-right: 2.8px solid rgba(222, 226, 230, 0.9);
       li {
-        color: var(--grey2);
-        cursor: pointer;
-        font-family: var(--font);
-        font-size: 1rem;
-        font-weight: 600;
+        a {
+          color: var(--grey2);
+          cursor: pointer;
+          font-family: var(--font);
+          font-size: 1rem;
+          font-weight: 600;
+        }
       }
     }
     div {

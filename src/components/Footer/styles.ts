@@ -30,7 +30,7 @@ export const FooterStyle = styled.footer`
     justify-content: flex-end;
   }
 
-  button {
+  a {
     width: 53px;
     height: 50px;
     border-radius: var(--border-radius);

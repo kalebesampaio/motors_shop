@@ -14,12 +14,18 @@ export const Header = () => {
             <TiThMenu />
           </ButtonMobile>
           <ul>
-            <li>Carros</li>
-            <li>Motos</li>
-            <li>Leilão</li>
+            <li>
+              <a href="#Carros">Carros</a>
+            </li>
+            <li>
+              <a href="#Motos">Motos</a>
+            </li>
+            <li>
+              <a href="#Leilão">Leilão</a>
+            </li>
           </ul>
           <div>
-            <a href="">Fazer Login</a>
+            <a>Fazer Login</a>
             <button>Cadastrar</button>
           </div>
         </nav>

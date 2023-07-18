@@ -12,9 +12,9 @@ export const Footer = () => {
         <p>© 2022 - Todos os direitos reservados.</p>
       </div>
       <div className="button">
-        <button>
+        <a href="#">
           <MdOutlineKeyboardArrowUp />
-        </button>
+        </a>
       </div>
     </FooterStyle>
   );
