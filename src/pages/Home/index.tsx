@@ -1,14 +1,11 @@
 import { CardAuction } from "../../components/CardAuction";
 import { CardVehicle } from "../../components/CardVehicle";
-import { Footer } from "../../components/Footer";
-import { Header } from "../../components/Header";
 import { ListAuction } from "../../components/ListAuction";
 import { HomeButton, HomeMain, HomeNavbar } from "./styles";
 
 export const Home = () => {
   return (
     <>
-      <Header></Header>
       <HomeNavbar>
         <h1>Velocidade e experiência em um lugar feito para você</h1>
         <p>Um ambiente feito para você explorar o seu melhor</p>
@@ -42,7 +39,6 @@ export const Home = () => {
           <CardVehicle />
         </ListAuction>
       </HomeMain>
-      <Footer />
     </>
   );
 };

@@ -60,6 +60,25 @@ html {
   scroll-behavior: smooth;
 }
 
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #808080 #ffffff;
+  }
+
+  *::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #808080;
+    border-radius: 13px;
+    border: 3px solid #ffffff;
+  }
+
 :root{
     --brand1: #4529E6;
     --brand2: #5126EA;

@@ -7,9 +7,12 @@ export const HeaderStyle = styled.header`
   background-color: black;
   padding: 0px 60px 0px 60px;
   background-color: var(--grey10);
+  border-bottom: 1px solid var(--grey6);
   @media (max-width: 1050px) {
     padding: 0px 0px 0px 0px;
   }
+  position: fixed;
+  z-index: 999;
 `;
 
 export const HeaderContainer = styled.div`
