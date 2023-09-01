@@ -17,8 +17,8 @@ export const ListAuctionStyle = styled.div`
   div {
     max-width: 100%;
   }
-  .sc-bdvumH,
-  .sc-iCfKOy {
+  .sc-eCIlHX,
+  .sc-kDTiHp {
     margin-right: 25px;
   }
 `;

@@ -59,6 +59,7 @@ export const HeaderContainer = styled.div`
         font-size: 1rem;
         font-weight: 600;
         color: var(--grey2);
+        cursor: pointer;
       }
       button {
         width: 133px;
